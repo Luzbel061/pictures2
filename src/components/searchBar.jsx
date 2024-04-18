@@ -1,6 +1,6 @@
 import { useState} from "react"
 
-function searchBar({onSumit}){
+function SearchBar({onSumit}){
     const [term, setTerm] = useState('')
 
     const handleFormSubmit = (event)=>{
@@ -30,4 +30,4 @@ function searchBar({onSumit}){
     )
 }
 
-export default searchBar
+export default SearchBar

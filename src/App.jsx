@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import SearchBar from './components/searchBar'
 import ImageList from './components/imageList'
-import'./App.css
+import './App.css'
 
 function App() {
   const [Imagenes,setImage] = useState([])
