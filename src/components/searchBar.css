@@ -1,0 +1,10 @@
+.search-Bar {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10 px;
+}
+
+.search-Bar.from{
+    display: flex;
+    flex-direction: column;
+}
