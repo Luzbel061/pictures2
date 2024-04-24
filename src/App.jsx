@@ -9,7 +9,7 @@ function App() {
 
   const handleSubmit = async(term) =>{
     console.log('usted esta buscando con: ',term)
-    const result = await setImages(term)
+    const result = await searchImage(term)
     console.log('coco')
     console.log(result)
     setImages(result)
